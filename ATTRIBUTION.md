@@ -19,3 +19,8 @@
 - Ultrasound figures and probe-position illustration are adapted from D'Agostino et al. 2024 under CC BY 4.0; see slide notes for figure-level attribution.
 - Representative radiographs are from Kohn et al. 2016, which identifies the original Kellgren–Lawrence figure source and permission statement.
 - Klinik Inocare logos are proprietary brand assets and remain the property of Klinik Inocare.
+
+## Interactive presentation plugin
+
+- Chalkboard plugin from Raj Goel's `reveal.js-plugins`, version 4.6.0, used under the MIT License: https://github.com/rajgoel/reveal.js-plugins/tree/master/chalkboard
+- The bundled plugin licence is retained at `public/plugins/chalkboard/LICENSE`.

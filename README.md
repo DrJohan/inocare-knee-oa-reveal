@@ -16,6 +16,26 @@ npm run dev
 
 Open the local URL shown by Vite. Use the arrow keys or swipe to move between slides. Press `S` for presenter view, `O` for overview and `?` for Reveal.js keyboard help.
 
+## Chalkboard and live drawing
+
+The drawing toolbar—on the left on larger screens and along the bottom on small screens—provides four controls:
+
+- **Draw:** annotate directly over the current slide.
+- **Board:** open or close a full-screen chalkboard.
+- **Colour:** cycle through the available drawing colours.
+- **Clear:** clear the current slide drawing.
+
+Keyboard shortcuts:
+
+- `C` — toggle drawing over the current slide
+- `B` — toggle the full chalkboard
+- `X` / `Y` — next or previous colour
+- `Delete` — clear the current slide drawing
+- `Backspace` — reset all saved drawings after confirmation
+- `D` — download the drawing data
+
+Drag with a mouse, stylus or finger to draw. Right-click and drag to erase; on touchscreens, touch and hold before moving to erase. Drawings are retained for the current browser-tab session.
+
 ## Build for Netlify
 
 ```bash
@@ -39,6 +59,7 @@ To deploy later, connect this repository in Netlify and accept the detected sett
 - Klinik Inocare styling: `src/styles.css`
 - Reveal.js settings: `src/main.js`
 - Images and logos: `public/assets/`
+- Chalkboard plugin: `public/plugins/chalkboard/`
 - Original PowerPoint download: `public/downloads/`
 
 ## Medical-use note

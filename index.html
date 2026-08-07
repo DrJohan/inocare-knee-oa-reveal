@@ -9,6 +9,7 @@
     />
     <meta name="theme-color" content="#234173" />
     <title>Understanding Knee Osteoarthritis | Klinik Inocare</title>
+    <link rel="stylesheet" href="/plugins/chalkboard/style.css" />
   </head>
   <body>
     <div class="reveal">
@@ -339,6 +340,60 @@
         </section>
       </div>
     </div>
+    <nav id="chalkboard-toolbar" class="chalkboard-toolbar" aria-label="Presentation drawing tools">
+      <button
+        type="button"
+        class="chalk-tool"
+        data-chalkboard-action="notes"
+        aria-label="Draw on the current slide"
+        aria-pressed="false"
+        title="Draw on slide (C)"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m4 20 4.2-1 10.9-10.9-3.2-3.2L5 15.8 4 20Z" />
+          <path d="m14.7 6.1 3.2 3.2" />
+        </svg>
+      </button>
+      <button
+        type="button"
+        class="chalk-tool"
+        data-chalkboard-action="board"
+        aria-label="Open the full chalkboard"
+        aria-pressed="false"
+        title="Open chalkboard (B)"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="14" rx="2" />
+          <path d="M8 21h8M12 18v3" />
+        </svg>
+      </button>
+      <button
+        type="button"
+        class="chalk-tool"
+        data-chalkboard-action="color"
+        aria-label="Use the next drawing colour"
+        title="Next colour (X)"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="8" cy="9" r="3" />
+          <circle cx="16" cy="9" r="3" />
+          <circle cx="12" cy="16" r="3" />
+        </svg>
+      </button>
+      <button
+        type="button"
+        class="chalk-tool"
+        data-chalkboard-action="clear"
+        aria-label="Clear drawings from the current slide"
+        title="Clear current drawing (Delete)"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 7h14M9 7V4h6v3M8 10v7M12 10v7M16 10v7M7 7l1 13h8l1-13" />
+        </svg>
+      </button>
+    </nav>
+    <div id="chalkboard-status" class="chalkboard-status" role="status" aria-live="polite"></div>
+    <script src="/plugins/chalkboard/plugin.js"></script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

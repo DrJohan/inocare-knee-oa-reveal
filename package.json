@@ -1,6 +1,6 @@
 {
   "name": "inocare-knee-oa-public-reveal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "Klinik Inocare public education presentation on knee osteoarthritis, KL grading and knee ultrasound.",
   "type": "module",
