@@ -290,7 +290,7 @@ function installPresenterMenu(targetWindow, attempt = 0) {
     speakerMenu.id = "inocare-speaker-menu";
     speakerMenu.innerHTML = `
       <button id="inocare-speaker-toggle" type="button" aria-label="Open presenter menu" aria-haspopup="menu" aria-expanded="false">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="12" cy="19" r="1.6"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="2" rx="1"/><rect x="4" y="11" width="16" height="2" rx="1"/><rect x="4" y="17" width="16" height="2" rx="1"/></svg>
       </button>
       <div id="inocare-speaker-panel" role="menu" hidden>
         <p class="inocare-speaker-heading">Presenter view</p>
